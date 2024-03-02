@@ -1,0 +1,54 @@
+Greet the user
+ask whether the user is 
+a)admin
+b)census worker
+
+
+
+Admin Login:
+The admin will log in using a valid username and password.
+Username and ID will be stored in a text file with comma separators.
+Passwords are stored following the corresponding username.
+Upon login attempt, the program checks if the username exists.
+If the username exists, the program checks the corresponding password.
+If both username and password are correct, access is granted.
+If either username or password is incorrect, the admin gets another chance.
+If login fails repeatedly, access is denied, and the program terminates.
+Viewing Data:
+After successful login, the admin can view data.
+The admin chooses between viewing data from the previous census (2012) or the current year.
+If the admin selects the previous census, data is retrieved from a text file.
+If the admin selects the current census, they choose to display data sector-wise.
+The admin selects a sector to view its data.
+Admin Logout:
+After viewing data, the admin can choose to continue or logout.
+To logout, the admin presses any key.
+Upon logout, the program terminates from the admin's side.lid id password 
+
+
+
+Census Worker Tasks:
+Sector-Wise Data Entry:
+The census worker selects the sector they are working in (Sector A, Sector B, Sector C, or Sector D).
+A file is created based on the selected sector's name to store the data.
+The worker enters the number of houses in the selected sector.
+The data entry loop runs for each house in the sector.
+House-Wise Data Entry:
+For each house, the worker enters the house number.
+The worker then enters the number of members in the house (minimum 1).
+Data is entered for each member according to specified categories.
+Data Categorization:
+Name: Worker enters the name of each individual.
+CNIC: The CNIC (Computerized National Identity Card) number is recorded.
+Gender: Categorized as male, female, or others.
+Age: Categorized into toddlers, teens, adults, and old age, based on gender.
+Marital Status: Recorded to calculate married or unmarried individuals by gender.
+Religion: Classified into Islam, Christianity, Hinduism, and others (minorities).
+Literacy: Categorized as literate or illiterate.
+Education: Current education level (primary, secondary, intermediate, higher).
+Employment: Whether employed, and if so, whether in the public or private sector.
+Data Storage:
+Data is stored in a text file in a specific format, with each index representing an attribute or category.
+When the admin requests to view data, the program retrieves and displays the data stored in the text file.
+
+
